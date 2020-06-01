@@ -65,6 +65,15 @@ public class StudentSummary {
                     ") " + "- average grade (" +
                     subjectAvg + "% - " + subjectAvgLetter + ")");
         }
+        
+        System.out.println("");        
+        
+        for( double each[] : subjectgrades ){  //print 2 dimensional array out
+            for ( double eachGrade : each ){
+                System.out.print( eachGrade + " ");
+            }
+            System.out.println("");
+        }
     }
     
 }
